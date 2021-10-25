@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ch13_ex2_userAdmin">
+	<Resource auth="Container"
+		driverClassName="com.mysql.jdbc.Driver" logAbandoned="true"
+		maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/murach"
+		password="nhatsang" removeAbandoned="true"
+		removeAbandonedTimeout="60" type="javax.sql.DataSource"
+		url="jdbc:mysql://nhatsang-ex.cwrcmksfx05l.ap-southeast-1.rds.amazonaws.com:3306/nhatsang_ex?autoReconnect=true"
+		username="admin" />
+</Context>
