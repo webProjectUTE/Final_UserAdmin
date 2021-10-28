@@ -19,7 +19,7 @@ public class UsersServlet extends HttpServlet {
         
         HttpSession session = request.getSession();
 
-        String url = "/index.jsp";
+        String url = "/users.jsp";
         
         // get current action
         String action = request.getParameter("action");
